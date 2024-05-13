@@ -10,7 +10,7 @@ const MultiSelect: React.FC<MultiSelectTypes> = ({ optionList, placeHolder }) =>
     const [openDropDown, setOpenDropDown] = useState<boolean>(false)
 
     const handleClickOnDom = (e: Event) => {
-        const t = e.target as HTMLElement
+        const t = e.target as HTMLDivElement | HTMLInputElement
         if (!msContainerRef.current?.contains(t)) {
             holderRef.current?.classList.remove('elmFocus')
             searchRef.current?.classList.remove('elmFocus')
@@ -23,8 +23,7 @@ const MultiSelect: React.FC<MultiSelectTypes> = ({ optionList, placeHolder }) =>
 
 
 
-
-    const toggle = () => setOpenDropDown(open => !open)
+    const toggleOnClick = () => setOpenDropDown(open => !open)
 
     useEffect(() => document.addEventListener('click', handleClickOnDom, true), [])
     return (
@@ -32,7 +31,7 @@ const MultiSelect: React.FC<MultiSelectTypes> = ({ optionList, placeHolder }) =>
 
             <div className="multi__select__holder" ref={holderRef}>
                 <span>{placeHolder}</span>
-                <i onClick={toggle} className={`fa-solid fa-arrow-up ${openDropDown && 'open'}`}></i>
+                <i onClick={toggleOnClick} className={`fa-solid fa-arrow-up ${openDropDown && 'open'}`}></i>
             </div>
 
             <div className={`multi__select__dropDown__container ${openDropDown && 'active'} `}>
@@ -40,13 +39,11 @@ const MultiSelect: React.FC<MultiSelectTypes> = ({ optionList, placeHolder }) =>
 
                 <div className="multi__select__dropDon__list">
 
-                    {optionList.map((list) => (<div key={list.value} className="multi__select__dropDown__item">
+                    {optionList.map((list) => (<div key={list.label} className="multi__select__dropDown__item">
                         {list.icon?.search('svg') ? (<img src={list.icon} width={20} />) : <span>{list.icon}</span>}
                         <span>{list.label}</span>
 
                     </div>))}
-
-
                 </div>
 
             </div>

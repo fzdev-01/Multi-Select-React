@@ -4,11 +4,7 @@ export const data = [
         "country": "Ascension Island",
         "code": "ac"
     },
-    {
-        "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1e9.svg",
-        "country": "Andorra",
-        "code": "ad"
-    },
+
     {
         "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1ea.svg",
         "country": "United Arab Emirates",
@@ -1093,11 +1089,6 @@ export const data = [
         "code": "sz"
     },
     {
-        "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1e6.svg",
-        "country": "Tristan Da Cunha",
-        "code": "sh"
-    },
-    {
         "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1e8.svg",
         "country": "Turks & Caicos Islands",
         "code": "tc"
@@ -1287,16 +1278,7 @@ export const data = [
         "country": "Zimbabwe",
         "code": "zw"
     },
-    {
-        "flag": "https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.svg",
-        "country": "England",
-        "code": "uk"
-    },
-    {
-        "flag": "https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0073-e0063-e0074-e007f.svg",
-        "country": "Scotland",
-        "code": "uk"
-    },
+
     {
         "flag": "https://twemoji.maxcdn.com/2/svg/1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg",
         "country": "Wales",
