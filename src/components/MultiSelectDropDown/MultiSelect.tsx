@@ -22,35 +22,36 @@ const MultiSelect: React.FC<MultiSelectTypes> = ({ optionList, placeHolder }) =>
     }
 
 
-
-    const toggleOnClick = () => setOpenDropDown(open => !open)
+    const toggle = () => setOpenDropDown(open => !open)
 
     useEffect(() => document.addEventListener('click', handleClickOnDom, true), [])
     return (
+
         <div className="multi__select__container" ref={msContainerRef}>
 
             <div className="multi__select__holder" ref={holderRef}>
                 <span>{placeHolder}</span>
-                <i onClick={toggleOnClick} className={`fa-solid fa-arrow-up ${openDropDown && 'open'}`}></i>
+                <i onClick={toggle} className={`fa-solid fa-arrow-up ${openDropDown && 'open'}`}></i>
             </div>
 
             <div className={`multi__select__dropDown__container ${openDropDown && 'active'} `}>
                 <input type="text" placeholder="search" ref={searchRef} />
 
                 <div className="multi__select__dropDon__list">
+                    {optionList.map((list) => (
+                        <div
+                            key={list.label}
+                            className="multi__select__dropDown__item">
+                            {list.icon?.search('svg') ? (<img src={list.icon} width={20} />) : <span>{list.icon}</span>}
+                            <span>{list.label}</span>
 
-                    {optionList.map((list) => (<div key={list.label} className="multi__select__dropDown__item">
-                        {list.icon?.search('svg') ? (<img src={list.icon} width={20} />) : <span>{list.icon}</span>}
-                        <span>{list.label}</span>
-
-                    </div>))}
+                        </div>
+                    ))}
                 </div>
 
             </div>
-
-
-
         </div>
+
     )
 }
 
