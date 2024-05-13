@@ -1,0 +1,34 @@
+.multi__select__dropDon__list {
+    height: 250px;
+    background: #FFF;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+
+}
+
+.multi__select__dropDon__list::-webkit-scrollbar {
+    width: 5px;
+    height: 1rem;
+
+}
+
+.multi__select__dropDon__list::-webkit-scrollbar-track {
+
+    background-color: #FFF;
+
+}
+
+.multi__select__dropDon__list::-webkit-scrollbar-thumb {
+    background-color: #EE7A7A;
+}
+
+
+.multi__select__dropDown__item {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+}

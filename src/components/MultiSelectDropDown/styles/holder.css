@@ -1,0 +1,41 @@
+.multi__select__holder {
+    width: 400px;
+    padding: 10px;
+    background: #FFF;
+    border-radius: 15px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.multi__select__holder .fa-arrow-up {
+    padding: 5px;
+
+    transform: rotate(-180deg);
+}
+
+.multi__select__holder .fa-arrow-up.open {
+    transform: rotate(0deg);
+
+}
+
+.multi__select__holder::-webkit-scrollbar {
+    height: 1;
+}
+
+.multi__select__holder::-webkit-scrollbar-track {
+    background-color: #EE7A7A;
+    margin: 5px;
+}
+
+.multi__select__holder::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+
+}

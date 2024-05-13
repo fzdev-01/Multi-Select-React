@@ -4,7 +4,7 @@ export type MultiSelectTypes = {
 }
 
 export type List = {
-    value: string | number;
+    value: string | undefined;
     label: string;
     icon?: string;
     disabled?: boolean;

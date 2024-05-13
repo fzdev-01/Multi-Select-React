@@ -1,20 +1,16 @@
 import MultiSelect from "./components/MultiSelectDropDown/MultiSelect.tsx"
-import type { List } from "./components/MultiSelectDropDown/types/mutlSelectTypes.ts"
 
+import { data } from "./components/data/data.ts"
 
 const App = () => {
 
-    const options: List[] = [
-        { label: 'any1', value: 'any1' },
-        { label: 'any2', value: 'any2' },
-        { label: 'any3', value: 'any3' },
-    ]
+    const updateOBJ = data.map(({ country, code, flag }) => ({ label: country, value: code, icon: flag }))
 
     return (
         <>
             <h1>Multi Select DropDown</h1>
             <hr></hr>
-            <MultiSelect optionList={options} placeHolder="Multi Select" />
+            <MultiSelect optionList={updateOBJ} placeHolder="Multi Select" />
         </>
     )
 }

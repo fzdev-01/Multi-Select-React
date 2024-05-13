@@ -1,0 +1,32 @@
+.multi__select__dropDown__container {
+    position: absolute;
+    height: 300px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+    transform: translateY(50px);
+    opacity: 0;
+    z-index: -1;
+}
+
+
+.multi__select__dropDown__container.active {
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 15;
+}
+
+
+
+.multi__select__dropDown__container input {
+    outline: none;
+    border: none;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
