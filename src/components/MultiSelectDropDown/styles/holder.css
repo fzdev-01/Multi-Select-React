@@ -4,7 +4,7 @@
     background: #FFF;
     border-radius: 15px;
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x: scroll;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -27,15 +27,16 @@
 }
 
 .multi__select__holder::-webkit-scrollbar {
-    height: 1;
+    height: 3px;
 }
 
 .multi__select__holder::-webkit-scrollbar-track {
-    background-color: #EE7A7A;
-    margin: 5px;
+    background-color: #FFF;
+    margin: 50px;
 }
 
 .multi__select__holder::-webkit-scrollbar-thumb {
-    background-color: #FFF;
+    background-color: #EE7A7A;
+
 
 }

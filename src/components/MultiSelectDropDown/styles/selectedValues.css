@@ -1,0 +1,18 @@
+.multi__select__dropDown__items__selected__container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.multi__select__dropDown__item_selected {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    background: #f7f7f7;
+
+}
+
+.multi__select__dropDown__item_selected i {
+    color: #EE7A7A;
+}

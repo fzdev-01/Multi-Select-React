@@ -1,0 +1,70 @@
+.removeLableFromList {
+    animation: removeLableFromList .4s ease;
+}
+
+.returnLableToList {
+    animation: returnLableToList .4s ease;
+}
+
+.addValueToHolder {
+    animation: addValueToHolder .4s ease;
+}
+
+.returnValueToHolder {
+    animation: returnValueToHolder .4s ease;
+}
+
+
+/* removeLableFromList */
+@keyframes removeLableFromList {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}
+
+/* returnLableToList */
+@keyframes returnLableToList {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* addValueToHolder */
+@keyframes addValueToHolder {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* returnValueToHolder */
+@keyframes returnValueToHolder {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(50px);
+        opacity: 0;
+
+    }
+
+}
