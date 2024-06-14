@@ -1,4 +1,4 @@
-if youre new with react, try this component or simple project and find issues !
+if youre new with react, try this component fix react code!
 
 * notes for (Refactoring  ) :
   - Hooks!
@@ -7,6 +7,6 @@ if youre new with react, try this component or simple project and find issues !
   - Temp Components
   -refs
   -css
- 
-  
-     -- good luck 💝
+
+  -- Try to make it reusable.... 
+     -- Good luck 💝
