@@ -1,12 +1,13 @@
-if youre new with react, try this component fix react code!
+Try this component and Refactor it!
 
-* notes for (Refactoring  ) :
+* 🔆 Hint for (Refactoring  ) :
   - Hooks!
   - TimeOut!
   - dom click
   - Temp Components
-  -refs
-  -css
+  - refs
+  - css
 
   -- Try to make it reusable.... 
      -- Good luck 💝
+
