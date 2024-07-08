@@ -1,6 +1,6 @@
 Try this component and Refactor it!
 
-* 🔆 Hint for (Refactoring  ) :
+* 🔆 Hint  :
   - Hooks!
   - TimeOut!
   - dom click
