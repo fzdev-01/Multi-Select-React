@@ -3,7 +3,7 @@
 Welcome to the **MultiSelect Refactor & Enhancement Challenge**!  
 Your task is to improve and refactor an existing React component by applying best practices, fixing issues, and adding features.
 
----
+
 ## 🚀 Getting Started
 
 1. **Clone this repository:**
@@ -12,7 +12,8 @@ Your task is to improve and refactor an existing React component by applying bes
    git clone https://github.com/fzdev-01/Multi-Select-React.git
 
 ```
-   
+
+---
 ## 🚀 Challenge Tasks
 
 ### 1. Refactor Large Functions
