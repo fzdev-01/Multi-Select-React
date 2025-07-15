@@ -3,10 +3,8 @@
 Welcome to the **MultiSelect Refactor & Enhancement Challenge**!  
 Your task is to improve and refactor an existing React component by applying best practices, fixing issues, and adding features.
 
-
-
-
 ---
+
 ## 🚀 Challenge Tasks
 
 ### 1. Refactor Large Functions
