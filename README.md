@@ -7,17 +7,12 @@ Your task is to improve and refactor an existing React component by applying bes
 # 🚀 Getting Started
 
 # Clone this repository
+```bash
 git clone https://github.com/fzdev-01/Multi-Select-React.git
-
-# Change directory into the project folder
 cd Multi-Select-React
-
-# Install dependencies
 npm install
-
-# Run the development server
 npm run dev
-
+```
 ---
 ## 🚀 Challenge Tasks
 
