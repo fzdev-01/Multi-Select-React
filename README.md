@@ -9,8 +9,8 @@ Your task is to improve and refactor an existing React component by applying bes
 1. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/your-org/your-repo.git
-   cd your-repo
+   git clone https://github.com/fzdev-01/Multi-Select-React.git
+
 
 ---
 
